@@ -5,9 +5,9 @@ var dice2 = document.getElementById("img2");
 var title = document.getElementById("title");
 
 function randomNumber(){
-    randomNumber1 = "/images/dice"+(Math.floor(Math.random()*6) + 1)+".png";
+    randomNumber1 = "images/dice"+(Math.floor(Math.random()*6) + 1)+".png";
     console.log(randomNumber1);
-    randomNumber2 = "/images/dice"+(Math.floor(Math.random()*6) + 1)+".png";
+    randomNumber2 = "images/dice"+(Math.floor(Math.random()*6) + 1)+".png";
     console.log(randomNumber2);
 }
 
